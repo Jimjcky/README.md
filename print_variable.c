@@ -2,8 +2,7 @@
 int main() {
 
     int b = 87;
-    int j = 0;
-    for (j = 5; j < 23; j++) {
+    for (int j = 5; j < 23; j++) {
         printf("j=%d, b=%d\n", j, j * b);
         //give me some output messages in following format
         //and that can be done by add only ONE line code.
